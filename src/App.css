@@ -1,0 +1,8 @@
+canvas {
+  touch-action: none;
+  user-select: none;
+}
+
+.tooltip {
+  pointer-events: none;
+}
