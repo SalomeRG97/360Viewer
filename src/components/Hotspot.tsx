@@ -3,6 +3,8 @@ import { Html } from "@react-three/drei";
 import { latLonToXYZ, xyzToLatLon } from "../utils/geometry";
 import { useThree } from "@react-three/fiber";
 import * as THREE from "three";
+import gsap from "gsap";
+import HotspotPopup, { type PopupData } from "./HotspotPopup";
 
 export type HotspotData = {
   id: string;
@@ -10,6 +12,8 @@ export type HotspotData = {
   lon: number;
   content: string;
   type?: string;
+  active?: boolean;
+  popup?: PopupData;
 };
 
 type Props = {
@@ -18,9 +22,16 @@ type Props = {
   onMove: (id: string, lat: number, lon: number) => void;
   sphereRef: React.RefObject<THREE.Mesh | null>;
   controlsRef: React.RefObject<any>;
+  onPopupChange: (open: boolean) => void;
 };
 
-const Hotspot: React.FC<Props> = ({ data, radius, onMove, controlsRef }) => {
+const Hotspot: React.FC<Props> = ({
+  data,
+  radius,
+  onMove,
+  controlsRef,
+  onPopupChange,
+}) => {
   const { camera, gl, scene } = useThree();
 
   const dragging = useRef(false);
@@ -28,6 +39,8 @@ const Hotspot: React.FC<Props> = ({ data, radius, onMove, controlsRef }) => {
   const mouse = useRef(new THREE.Vector2());
 
   const [hover, setHover] = useState(false);
+  const [popupVisible, setPopupVisible] = useState(false);
+  const type2Ref = useRef<THREE.Mesh>(null);
 
   const position = latLonToXYZ(data.lat, data.lon, radius);
 
@@ -75,19 +88,33 @@ const Hotspot: React.FC<Props> = ({ data, radius, onMove, controlsRef }) => {
     };
   }, [camera, gl, scene, onMove, data.id]);
 
+  useEffect(() => {
+    if (controlsRef.current) {
+      controlsRef.current.enabled = !popupVisible;
+    }
+    onPopupChange(popupVisible);
+  }, [popupVisible, controlsRef, onPopupChange]);
+
+  useEffect(() => {
+    if (data.type === "Tipo 2" && type2Ref.current) {
+      const el = type2Ref.current.scale;
+      const tl = gsap.timeline({ repeat: -1, yoyo: true });
+      tl.to(el, { x: 1.5, y: 1.5, z: 1.5, duration: 0.8 });
+
+      // ✅ Función de limpieza para useEffect
+      return () => {
+        tl.kill();
+      };
+    }
+  }, [data.type]);
+
   return (
     <group position={position}>
-      {/* 🔥 ZONA GRANDE INVISIBLE (interacción) */}
+      {/* Zona de interacción */}
       <mesh
         onPointerDown={(e) => {
           e.stopPropagation();
-          dragging.current = true;
-
-          if (controlsRef.current) {
-            controlsRef.current.enabled = false;
-          }
-
-          document.body.style.cursor = "grabbing";
+          setPopupVisible(!popupVisible);
         }}
         onPointerEnter={() => setHover(true)}
         onPointerLeave={() => setHover(false)}
@@ -96,16 +123,104 @@ const Hotspot: React.FC<Props> = ({ data, radius, onMove, controlsRef }) => {
         <meshBasicMaterial transparent opacity={0} />
       </mesh>
 
-      {/* 🔹 PUNTO VISIBLE */}
-      <mesh>
-        <sphereGeometry args={[0.1, 16, 16]} />
-        <meshBasicMaterial color={hover ? "#00bcd4" : "white"} />
-      </mesh>
+      {/* Tipo 1 */}
+      {data.type === "Tipo 1" && (
+        <>
+          <Html center transform sprite distanceFactor={4}>
+            <div
+              style={{
+                display: "inline-block",
+                padding: "0.6em 0.7em",
+                backgroundColor: "rgba(51, 51, 51, 0.9)",
+                color: "white",
+                fontWeight: "bold",
+                fontSize: "0.9rem",
+                textAlign: "center",
+                borderRadius: "6px",
+                whiteSpace: "nowrap",
+                cursor: "pointer",
+              }}
+              onClick={() => setPopupVisible(true)}
+            >
+              {data.content}
+            </div>
+          </Html>
 
-      {hover && (
-        <Html center>
-          <div className="tooltip">Arrastrar</div>
-        </Html>
+          {popupVisible && data.popup && (
+            <HotspotPopup
+              visible={popupVisible}
+              onClose={() => setPopupVisible(false)}
+              position={[0, 0.3, 0]}
+              content={data.popup}
+            />
+          )}
+        </>
+      )}
+
+      {/* Tipo 2 */}
+      {data.type === "Tipo 2" && (
+        <mesh ref={type2Ref}>
+          <sphereGeometry args={[0.05, 16, 16]} />
+          <meshBasicMaterial color={data.active ? "green" : "red"} />
+          {popupVisible && data.popup && (
+            <HotspotPopup
+              visible={popupVisible}
+              onClose={() => setPopupVisible(false)}
+              position={[0, 0.3, 0]}
+              content={data.popup}
+            />
+          )}
+        </mesh>
+      )}
+
+      {/* Tipo 3 o default */}
+      {data.type === "Tipo 3" && (
+        <group>
+          {/* Invisible clickable mesh */}
+          <mesh
+            position={[0, 0, 0]}
+            onPointerDown={(e) => {
+              e.stopPropagation();
+              setPopupVisible(!popupVisible);
+            }}
+            onPointerEnter={() => setHover(true)}
+            onPointerLeave={() => setHover(false)}
+          >
+            <sphereGeometry args={[0.15, 16, 16]} />
+            <meshBasicMaterial transparent opacity={0} />
+            {/* Icono HTML sobre el hotspot */}
+            <Html center>
+              <div
+                onPointerDown={(e) => {
+                  e.stopPropagation();
+                  setPopupVisible(!popupVisible);
+                }}
+                style={{
+                  display: "inline-block",
+                  cursor: "pointer",
+                }}
+              >
+                <i
+                  className="bi bi-geo-alt-fill"
+                  style={{
+                    fontSize: "1.5rem",
+                    color: hover ? "#34b114" : "#97f0c4",
+                  }}
+                />
+              </div>
+            </Html>
+          </mesh>
+
+          {/* Popup */}
+          {popupVisible && data.popup && (
+            <HotspotPopup
+              visible={popupVisible}
+              onClose={() => setPopupVisible(false)}
+              position={[0, 0.3, 0]}
+              content={data.popup}
+            />
+          )}
+        </group>
       )}
     </group>
   );

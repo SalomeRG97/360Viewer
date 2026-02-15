@@ -9,6 +9,7 @@ type HotspotsProps = {
   onMove: (id: string, lat: number, lon: number) => void;
   sphereRef: React.RefObject<THREE.Mesh | null>;
   controlsRef: React.RefObject<any>;
+  onPopupChange: (open: boolean) => void;
 };
 
 const Hotspots: React.FC<HotspotsProps> = ({
@@ -17,6 +18,7 @@ const Hotspots: React.FC<HotspotsProps> = ({
   onMove,
   sphereRef,
   controlsRef,
+  onPopupChange,
 }) => {
   return (
     <>
@@ -28,6 +30,7 @@ const Hotspots: React.FC<HotspotsProps> = ({
           onMove={onMove}
           sphereRef={sphereRef}
           controlsRef={controlsRef}
+          onPopupChange={onPopupChange}
         />
       ))}
     </>

@@ -1,0 +1,1326 @@
+[
+  {
+    "id": "AUTOPISTA",
+    "lat": -5.738284043263874,
+    "lon": 70.9714937875125,
+    "content": "AUTOPISTA\nMEDELLÍN - BOGOTÁ",
+    "type": "Tipo 1",
+    "popup": {
+      "type": "text",
+      "text": "Este es un hotspot con contenido de texto"
+    }
+  },
+  {
+    "id": "DORADAL",
+    "lat": 2.192255599368238,
+    "lon": 88.71676131371547,
+    "content": "DORADAL",
+    "type": "Tipo 1",
+    "popup": {
+      "type": "text",
+      "text": "Este es un hotspot con contenido de texto"
+    }
+  },
+  {
+    "id": "HACIENDANAPOLES",
+    "lat": 2.192255599368238,
+    "lon": 114.57317767819454,
+    "content": "HACIENDA NÁPOLES",
+    "type": "Tipo 1",
+    "popup": {
+      "type": "text",
+      "text": "Este es un hotspot con contenido de texto"
+    }
+  },
+  {
+    "id": "MEDELLIN",
+    "lat": 2.192255599368238,
+    "lon": 135.1584090821507,
+    "content": "MEDELLÍN",
+    "type": "Tipo 1",
+    "popup": {
+      "type": "text",
+      "text": "Este es un hotspot con contenido de texto"
+    }
+  },
+  {
+    "id": "MAGDALENA",
+    "lat": -3.5186134612585676,
+    "lon": 175.4193798884144,
+    "content": "RIÓ MAGDALENA",
+    "type": "Tipo 1",
+    "popup": {
+      "type": "text",
+      "text": "Este es un hotspot con contenido de texto"
+    }
+  },
+  {
+    "id": "BOYACA",
+    "lat": 0.4690262258989151,
+    "lon": -168.76075816820185,
+    "content": "PUERTO BOYACÁ",
+    "type": "Tipo 1",
+    "popup": {
+      "type": "text",
+      "text": "Este es un hotspot con contenido de texto"
+    }
+  },
+  {
+    "id": "BOGOTA",
+    "lat": 0.06557117728061712,
+    "lon": 8.720819435729748,
+    "content": "BOGOTÁ",
+    "type": "Tipo 1",
+    "popup": {
+      "type": "text",
+      "text": "Este es un hotspot con contenido de texto"
+    }
+  },
+  {
+    "id": "RUTADELSOL",
+    "lat": -45.99679112685604,
+    "lon": 75.3784982549638,
+    "content": "RUTA DEL SOL - SECTOR 2",
+    "type": "Tipo 1",
+    "popup": {
+      "type": "text",
+      "text": "Este es un hotspot con contenido de texto"
+    }
+  },
+  {
+    "id": "A-deportiva",
+    "lat": -17.56817069743238,
+    "lon": -112.98664880451531,
+    "content": "ZONA DEPORTIVA",
+    "type": "Tipo 3",
+    "popup": {
+      "type": "text",
+      "text": "Este es un hotspot con contenido de texto"
+    }
+  },
+  {
+    "id": "A-camping",
+    "lat": -15.962144453646914,
+    "lon": -124.00245556787787,
+    "content": "ZONA DE CAMPING",
+    "type": "Tipo 3",
+    "popup": {
+      "type": "text",
+      "text": "Este es un hotspot con contenido de texto"
+    }
+  },
+  {
+    "id": "A-natural",
+    "lat": -34.56074585074025,
+    "lon": -135.6599232181269,
+    "content": "RESERVA NATURAL",
+    "type": "Tipo 3",
+    "popup": {
+      "type": "text",
+      "text": "Este es un hotspot con contenido de texto"
+    }
+  },
+  {
+    "id": "A-senderos",
+    "lat": -35.19143610204189,
+    "lon": -147.73006751701618,
+    "content": "SENDEROS",
+    "type": "Tipo 3",
+    "popup": {
+      "type": "text",
+      "text": "Este es un hotspot con contenido de texto"
+    }
+  },
+  {
+    "id": "A-porteria",
+    "lat": -45.201627240937825,
+    "lon": 15.620577128936121,
+    "content": "PORTERÍA",
+    "type": "Tipo 3",
+    "popup": {
+      "type": "text",
+      "text": "Este es un hotspot con contenido de texto"
+    }
+  },
+  {
+    "id": "A-muelle1",
+    "lat": -37.7007709692237,
+    "lon": -16.541154227149445,
+    "content": "MUELLE",
+    "type": "Tipo 3",
+    "popup": {
+      "type": "text",
+      "text": "Este es un hotspot con contenido de texto"
+    }
+  },
+  {
+    "id": "A-muelle2",
+    "lat": -40.831892060476775,
+    "lon": -14.861808106835058,
+    "content": "MUELLE",
+    "type": "Tipo 3",
+    "popup": {
+      "type": "text",
+      "src": "Este es un hotspot con contenido de texto"
+    }
+  },
+  {
+    "id": "A-muelle3",
+    "lat": -46.86825999241415,
+    "lon": 6.421604489113677,
+    "content": "RUTA DEL SOL - SECTOR 2",
+    "type": "Tipo 3",
+    "popup": {
+      "type": "text",
+      "text": "Este es un hotspot con contenido de texto"
+    }
+  },
+  {
+    "id": "A-juegos",
+    "lat": -46.86825999241415,
+    "lon": 6.421604489113677,
+    "content": "RUTA DEL SOL - SECTOR 2",
+    "type": "Tipo 3",
+    "popup": {
+      "type": "text",
+      "text": "Este es un hotspot con contenido de texto"
+    }
+  },
+  {
+    "id": "A-vida",
+    "lat": -43.020991044003694,
+    "lon": -0.3113538783200308,
+    "content": "RUTA DEL SOL - SECTOR 2",
+    "type": "Tipo 3",
+    "popup": {
+      "type": "text",
+      "text": "Este es un hotspot con contenido de texto"
+    }
+  },
+  {
+    "id": "A-kiosko",
+    "lat": -45.047639664628974,
+    "lon": -8.330142651494231,
+    "content": "RUTA DEL SOL - SECTOR 2",
+    "type": "Tipo 3",
+    "popup": {
+      "type": "text",
+      "text": "Este es un hotspot con contenido de texto"
+    }
+  },
+  {
+    "id": "A-salon",
+    "lat": -43.75094285882864,
+    "lon": -13.973398008635233,
+    "content": "RUTA DEL SOL - SECTOR 2",
+    "type": "Tipo 3",
+    "popup": {
+      "type": "text",
+      "text": "Este es un hotspot con contenido de texto"
+    }
+  },
+  {
+    "id": "1",
+    "lat": -18.336100876346222,
+    "lon": 13.333051160360155,
+    "content": "1",
+    "type": "Tipo 2",
+    "active": true,
+    "popup": {
+      "type": "iframe",
+      "src": "https://www.youtube.com/embed/EbOxmBOs2T4"
+    }
+  },
+  {
+    "id": "2",
+    "lat": -19.07236339824891,
+    "lon": 7.701757775697632,
+    "content": "2",
+    "type": "Tipo 2",
+    "active": true,
+    "popup": {
+      "type": "iframe",
+      "src": "https://www.youtube.com/embed/4oMCwEjwbvI"
+    }
+  },
+  {
+    "id": "3",
+    "lat": -20.32575684607454,
+    "lon": 10.991387925754463,
+    "content": "3",
+    "type": "Tipo 2",
+    "active": true,
+    "popup": {
+      "type": "iframe",
+      "src": "https://www.youtube.com/embed/9I1uAbWxLmA"
+    }
+  },
+  {
+    "id": "4",
+    "lat": -22.60292546327568,
+    "lon": 16.585711274049363,
+    "content": "4",
+    "type": "Tipo 2",
+    "active": true,
+    "popup": {
+      "type": "iframe",
+      "src": "https://www.youtube.com/embed/8KrRc0sX_84"
+    }
+  },
+  {
+    "id": "5",
+    "lat": -21.09965981774539,
+    "lon": 13.889956999666623,
+    "content": "5",
+    "type": "Tipo 2",
+    "active": true,
+    "popup": {
+      "type": "iframe",
+      "src": "https://www.youtube.com/embed/XMWMhcI1dLg"
+    }
+  },
+  {
+    "id": "6",
+    "lat": -19.80728565016382,
+    "lon": 4.106798440149959,
+    "content": "6",
+    "type": "Tipo 2",
+    "active": true,
+    "popup": {
+      "type": "iframe",
+      "src": "https://www.youtube.com/embed/YOU0mMyqoVs"
+    }
+  },
+  {
+    "id": "7",
+    "lat": -21.815664815344135,
+    "lon": 7.962488330721943,
+    "content": "7",
+    "type": "Tipo 2",
+    "active": true,
+    "popup": {
+      "type": "iframe",
+      "src": "https://www.youtube.com/embed/EbOxmBOs2T4"
+    }
+  },
+  {
+    "id": "8",
+    "lat": -24.306923570410603,
+    "lon": 9.740973176722289,
+    "content": "8",
+    "type": "Tipo 2",
+    "active": true,
+    "popup": {
+      "type": "iframe",
+      "src": "https://www.youtube.com/embed/4oMCwEjwbvI"
+    }
+  },
+  {
+    "id": "9",
+    "lat": -25.70749863824868,
+    "lon": 13.126551756403877,
+    "content": "9",
+    "type": "Tipo 2",
+    "active": true,
+    "popup": {
+      "type": "iframe",
+      "src": "https://www.youtube.com/embed/9I1uAbWxLmA"
+    }
+  },
+  {
+    "id": "10",
+    "lat": -21.414437383380047,
+    "lon": 1.3091553637857722,
+    "content": "10",
+    "type": "Tipo 2",
+    "active": true,
+    "popup": {
+      "type": "iframe",
+      "src": "https://www.youtube.com/embed/8KrRc0sX_84"
+    }
+  },
+  {
+    "id": "11",
+    "lat": -23.199131229794858,
+    "lon": 4.81933909947961,
+    "content": "11",
+    "type": "Tipo 2",
+    "active": true,
+    "popup": {
+      "type": "iframe",
+      "src": "https://www.youtube.com/embed/XMWMhcI1dLg"
+    }
+  },
+  {
+    "id": "12",
+    "lat": -22.989143576690637,
+    "lon": -2.3072510404957227,
+    "content": "12",
+    "type": "Tipo 2",
+    "active": true,
+    "popup": {
+      "type": "iframe",
+      "src": "https://www.youtube.com/embed/YOU0mMyqoVs"
+    }
+  },
+  {
+    "id": "13",
+    "lat": -24.495961917111813,
+    "lon": 2.080417862244211,
+    "content": "13",
+    "type": "Tipo 2",
+    "active": true,
+    "popup": {
+      "type": "iframe",
+      "src": "https://www.youtube.com/embed/EbOxmBOs2T4"
+    }
+  },
+  {
+    "id": "14",
+    "lat": -27.065323478938666,
+    "lon": 5.7685353608602785,
+    "content": "14",
+    "type": "Tipo 2",
+    "active": true,
+    "popup": {
+      "type": "iframe",
+      "src": "https://www.youtube.com/embed/4oMCwEjwbvI"
+    }
+  },
+  {
+    "id": "15",
+    "lat": -28.641508519460615,
+    "lon": 9.761695516372976,
+    "content": "15",
+    "type": "Tipo 2",
+    "active": true,
+    "popup": {
+      "type": "iframe",
+      "src": "https://www.youtube.com/embed/9I1uAbWxLmA"
+    }
+  },
+  {
+    "id": "16",
+    "lat": -25.12899444731744,
+    "lon": -6.563317033896606,
+    "content": "16",
+    "type": "Tipo 2",
+    "active": true,
+    "popup": {
+      "type": "iframe",
+      "src": "https://www.youtube.com/embed/8KrRc0sX_84"
+    }
+  },
+  {
+    "id": "17",
+    "lat": -27.161517226223097,
+    "lon": -3.557330193489967,
+    "content": "17",
+    "type": "Tipo 2",
+    "active": true,
+    "popup": {
+      "type": "iframe",
+      "src": "https://www.youtube.com/embed/XMWMhcI1dLg"
+    }
+  },
+  {
+    "id": "18",
+    "lat": -31.322379058892906,
+    "lon": -1.818421057547674,
+    "content": "18",
+    "type": "Tipo 2",
+    "active": true,
+    "popup": {
+      "type": "iframe",
+      "src": "https://www.youtube.com/embed/YOU0mMyqoVs"
+    }
+  },
+  {
+    "id": "19",
+    "lat": -29.11542140002402,
+    "lon": 2.0916896317557345,
+    "content": "19",
+    "type": "Tipo 2",
+    "active": true,
+    "popup": {
+      "type": "iframe",
+      "src": "https://www.youtube.com/embed/EbOxmBOs2T4"
+    }
+  },
+  {
+    "id": "20",
+    "lat": -31.553626747588467,
+    "lon": 6.744855660380633,
+    "content": "20",
+    "type": "Tipo 2",
+    "active": true,
+    "popup": {
+      "type": "iframe",
+      "src": "https://www.youtube.com/embed/4oMCwEjwbvI"
+    }
+  },
+  {
+    "id": "21",
+    "lat": -33.716827418581445,
+    "lon": 4.074860703723688,
+    "content": "21",
+    "type": "Tipo 2",
+    "active": true,
+    "popup": {
+      "type": "iframe",
+      "src": "https://www.youtube.com/embed/9I1uAbWxLmA"
+    }
+  },
+  {
+    "id": "22",
+    "lat": -28.509199031392228,
+    "lon": -8.714254389366275,
+    "content": "22",
+    "type": "Tipo 2",
+    "active": true,
+    "popup": {
+      "type": "iframe",
+      "src": "https://www.youtube.com/embed/8KrRc0sX_84"
+    }
+  },
+  {
+    "id": "23",
+    "lat": -33.04094687864712,
+    "lon": -6.654284095292347,
+    "content": "23",
+    "type": "Tipo 2",
+    "active": true,
+    "popup": {
+      "type": "iframe",
+      "src": "https://www.youtube.com/embed/XMWMhcI1dLg"
+    }
+  },
+  {
+    "id": "24",
+    "lat": -35.51558343455103,
+    "lon": -1.4812149595482922,
+    "content": "24",
+    "type": "Tipo 2",
+    "active": true,
+    "popup": {
+      "type": "iframe",
+      "src": "https://www.youtube.com/embed/YOU0mMyqoVs"
+    }
+  },
+  {
+    "id": "25",
+    "lat": -37.448976285360544,
+    "lon": 3.8758286100826425,
+    "content": "25",
+    "type": "Tipo 2",
+    "active": true,
+    "popup": {
+      "type": "iframe",
+      "src": "https://www.youtube.com/embed/EbOxmBOs2T4"
+    }
+  },
+  {
+    "id": "26",
+    "lat": -30.364128897197972,
+    "lon": -15.985096682677245,
+    "content": "26",
+    "type": "Tipo 2",
+    "active": true,
+    "popup": {
+      "type": "iframe",
+      "src": "https://www.youtube.com/embed/4oMCwEjwbvI"
+    }
+  },
+  {
+    "id": "27",
+    "lat": -34.23273834506176,
+    "lon": -24.807456099849997,
+    "content": "27",
+    "type": "Tipo 2",
+    "active": true,
+    "popup": {
+      "type": "iframe",
+      "src": "https://www.youtube.com/embed/9I1uAbWxLmA"
+    }
+  },
+  {
+    "id": "28",
+    "lat": -36.8016633805463,
+    "lon": -26.645174473732773,
+    "content": "28",
+    "type": "Tipo 2",
+    "active": true,
+    "popup": {
+      "type": "iframe",
+      "src": "https://www.youtube.com/embed/8KrRc0sX_84"
+    }
+  },
+  {
+    "id": "29",
+    "lat": -40.38432114799369,
+    "lon": -20.89392539498144,
+    "content": "29",
+    "type": "Tipo 2",
+    "active": true,
+    "popup": {
+      "type": "iframe",
+      "src": "https://www.youtube.com/embed/XMWMhcI1dLg"
+    }
+  },
+  {
+    "id": "30",
+    "lat": -47.11771802585804,
+    "lon": -19.41213348174722,
+    "content": "30",
+    "type": "Tipo 2",
+    "active": true,
+    "popup": {
+      "type": "iframe",
+      "src": "https://www.youtube.com/embed/YOU0mMyqoVs"
+    }
+  },
+  {
+    "id": "31",
+    "lat": -51.03127011162124,
+    "lon": -9.365148795947224,
+    "content": "31",
+    "type": "Tipo 2",
+    "active": true,
+    "popup": {
+      "type": "iframe",
+      "src": "https://www.youtube.com/embed/EbOxmBOs2T4"
+    }
+  },
+  {
+    "id": "32",
+    "lat": -59.77839754867543,
+    "lon": -7.516969517758405,
+    "content": "32",
+    "type": "Tipo 2",
+    "active": true,
+    "popup": {
+      "type": "iframe",
+      "src": "https://www.youtube.com/embed/4oMCwEjwbvI"
+    }
+  },
+  {
+    "id": "33",
+    "lat": -48.923633991121136,
+    "lon": -32.17631343089255,
+    "content": "33",
+    "type": "Tipo 2",
+    "active": true,
+    "popup": {
+      "type": "iframe",
+      "src": "https://www.youtube.com/embed/9I1uAbWxLmA"
+    }
+  },
+  {
+    "id": "34",
+    "lat": -40.70367866335488,
+    "lon": -30.75668496440201,
+    "content": "34",
+    "type": "Tipo 2",
+    "active": true,
+    "popup": {
+      "type": "iframe",
+      "src": "https://www.youtube.com/embed/8KrRc0sX_84"
+    }
+  },
+  {
+    "id": "35",
+    "lat": -38.76151332429504,
+    "lon": -35.407360231642635,
+    "content": "35",
+    "type": "Tipo 2",
+    "active": true,
+    "popup": {
+      "type": "iframe",
+      "src": "https://www.youtube.com/embed/XMWMhcI1dLg"
+    }
+  },
+  {
+    "id": "36",
+    "lat": -34.86086307823811,
+    "lon": -34.70812300199043,
+    "content": "36",
+    "type": "Tipo 2",
+    "active": true,
+    "popup": {
+      "type": "iframe",
+      "src": "https://www.youtube.com/embed/YOU0mMyqoVs"
+    }
+  },
+  {
+    "id": "37",
+    "lat": -35.397489510185224,
+    "lon": -41.77608258401657,
+    "content": "37",
+    "type": "Tipo 2",
+    "active": true,
+    "popup": {
+      "type": "iframe",
+      "src": "https://www.youtube.com/embed/EbOxmBOs2T4"
+    }
+  },
+  {
+    "id": "38",
+    "lat": -37.0815279618423,
+    "lon": -46.99317727947576,
+    "content": "38",
+    "type": "Tipo 2",
+    "active": true,
+    "popup": {
+      "type": "iframe",
+      "src": "https://www.youtube.com/embed/4oMCwEjwbvI"
+    }
+  },
+  {
+    "id": "39",
+    "lat": -39.96294703617613,
+    "lon": -52.925807828171855,
+    "content": "39",
+    "type": "Tipo 2",
+    "active": true,
+    "popup": {
+      "type": "iframe",
+      "src": "https://www.youtube.com/embed/9I1uAbWxLmA"
+    }
+  },
+  {
+    "id": "40",
+    "lat": -41.2950805783959,
+    "lon": -45.81499455533762,
+    "content": "40",
+    "type": "Tipo 2",
+    "active": true,
+    "popup": {
+      "type": "iframe",
+      "src": "https://www.youtube.com/embed/8KrRc0sX_84"
+    }
+  },
+  {
+    "id": "41",
+    "lat": -50.714540284387226,
+    "lon": -41.06932487990113,
+    "content": "41",
+    "type": "Tipo 2",
+    "active": true,
+    "popup": {
+      "type": "iframe",
+      "src": "https://www.youtube.com/embed/XMWMhcI1dLg"
+    }
+  },
+  {
+    "id": "42",
+    "lat": -53.92866767067105,
+    "lon": -27.18946825357782,
+    "content": "42",
+    "type": "Tipo 2",
+    "active": true,
+    "popup": {
+      "type": "iframe",
+      "src": "https://www.youtube.com/embed/YOU0mMyqoVs"
+    }
+  },
+  {
+    "id": "43",
+    "lat": -68.56379981750783,
+    "lon": -19.0783032488271,
+    "content": "43",
+    "type": "Tipo 2",
+    "active": true,
+    "popup": {
+      "type": "iframe",
+      "src": "https://www.youtube.com/embed/EbOxmBOs2T4"
+    }
+  },
+  {
+    "id": "44",
+    "lat": -58.28704552193892,
+    "lon": -36.70859063305125,
+    "content": "44",
+    "type": "Tipo 2",
+    "active": true,
+    "popup": {
+      "type": "iframe",
+      "src": "https://www.youtube.com/embed/4oMCwEjwbvI"
+    }
+  },
+  {
+    "id": "45",
+    "lat": -65.22706719319137,
+    "lon": -49.953741543142506,
+    "content": "45",
+    "type": "Tipo 2",
+    "active": true,
+    "popup": {
+      "type": "iframe",
+      "src": "https://www.youtube.com/embed/9I1uAbWxLmA"
+    }
+  },
+  {
+    "id": "46",
+    "lat": -51.768232701325644,
+    "lon": -50.38349949543854,
+    "content": "46",
+    "type": "Tipo 2",
+    "active": true,
+    "popup": {
+      "type": "iframe",
+      "src": "https://www.youtube.com/embed/8KrRc0sX_84"
+    }
+  },
+  {
+    "id": "47",
+    "lat": -75.99944208694407,
+    "lon": -35.87350341115565,
+    "content": "47",
+    "type": "Tipo 2",
+    "active": true,
+    "popup": {
+      "type": "iframe",
+      "src": "https://www.youtube.com/embed/XMWMhcI1dLg"
+    }
+  },
+  {
+    "id": "48",
+    "lat": -43.21995482362689,
+    "lon": -61.904767611732254,
+    "content": "48",
+    "type": "Tipo 2",
+    "active": true,
+    "popup": {
+      "type": "iframe",
+      "src": "https://www.youtube.com/embed/YOU0mMyqoVs"
+    }
+  },
+  {
+    "id": "49",
+    "lat": -44.60034683737487,
+    "lon": -70.67161533799779,
+    "content": "49",
+    "type": "Tipo 2",
+    "active": true,
+    "popup": {
+      "type": "iframe",
+      "src": "https://www.youtube.com/embed/EbOxmBOs2T4"
+    }
+  },
+  {
+    "id": "50",
+    "lat": -49.25363885738287,
+    "lon": -64.85092854017931,
+    "content": "50",
+    "type": "Tipo 2",
+    "active": true,
+    "popup": {
+      "type": "iframe",
+      "src": "https://www.youtube.com/embed/4oMCwEjwbvI"
+    }
+  },
+  {
+    "id": "51",
+    "lat": -52.58255433866813,
+    "lon": -76.1288420178212,
+    "content": "51",
+    "type": "Tipo 2",
+    "active": true,
+    "popup": {
+      "type": "iframe",
+      "src": "https://www.youtube.com/embed/9I1uAbWxLmA"
+    }
+  },
+  {
+    "id": "52",
+    "lat": -58.18877440942043,
+    "lon": -70.51138026557958,
+    "content": "52",
+    "type": "Tipo 2",
+    "active": true,
+    "popup": {
+      "type": "iframe",
+      "src": "https://www.youtube.com/embed/8KrRc0sX_84"
+    }
+  },
+  {
+    "id": "53",
+    "lat": -78.8431960375616,
+    "lon": -85.42222895839886,
+    "content": "53",
+    "type": "Tipo 2",
+    "active": true,
+    "popup": {
+      "type": "iframe",
+      "src": "https://www.youtube.com/embed/XMWMhcI1dLg"
+    }
+  },
+  {
+    "id": "54",
+    "lat": -66.26103495961829,
+    "lon": -101.5245032815301,
+    "content": "54",
+    "type": "Tipo 2",
+    "active": true,
+    "popup": {
+      "type": "iframe",
+      "src": "https://www.youtube.com/embed/YOU0mMyqoVs"
+    }
+  },
+  {
+    "id": "55",
+    "lat": -61.18369622499026,
+    "lon": -89.06772510385615,
+    "content": "55",
+    "type": "Tipo 2",
+    "active": true,
+    "popup": {
+      "type": "iframe",
+      "src": "https://www.youtube.com/embed/EbOxmBOs2T4"
+    }
+  },
+  {
+    "id": "56",
+    "lat": -54.34626706514575,
+    "lon": -94.78988104807448,
+    "content": "56",
+    "type": "Tipo 2",
+    "active": true,
+    "popup": {
+      "type": "iframe",
+      "src": "https://www.youtube.com/embed/4oMCwEjwbvI"
+    }
+  },
+  {
+    "id": "57",
+    "lat": -77.95965994455969,
+    "lon": -126.76873214050377,
+    "content": "57",
+    "type": "Tipo 2",
+    "active": true,
+    "popup": {
+      "type": "iframe",
+      "src": "https://www.youtube.com/embed/9I1uAbWxLmA"
+    }
+  },
+  {
+    "id": "58",
+    "lat": -70.8596649020985,
+    "lon": -141.4403968775653,
+    "content": "58",
+    "type": "Tipo 2",
+    "active": true,
+    "popup": {
+      "type": "iframe",
+      "src": "https://www.youtube.com/embed/8KrRc0sX_84"
+    }
+  },
+  {
+    "id": "59",
+    "lat": -45.68469297368273,
+    "lon": -80.49312177954796,
+    "content": "59",
+    "type": "Tipo 2",
+    "active": true,
+    "popup": {
+      "type": "iframe",
+      "src": "https://www.youtube.com/embed/XMWMhcI1dLg"
+    }
+  },
+  {
+    "id": "60",
+    "lat": -47.60776525087235,
+    "lon": -87.4861771287323,
+    "content": "60",
+    "type": "Tipo 2",
+    "active": true,
+    "popup": {
+      "type": "iframe",
+      "src": "https://www.youtube.com/embed/YOU0mMyqoVs"
+    }
+  },
+  {
+    "id": "61",
+    "lat": -42.38676045613548,
+    "lon": -88.41789243854943,
+    "content": "61",
+    "type": "Tipo 2",
+    "active": true,
+    "popup": {
+      "type": "iframe",
+      "src": "https://www.youtube.com/embed/EbOxmBOs2T4"
+    }
+  },
+  {
+    "id": "62",
+    "lat": -48.89636194137884,
+    "lon": -100.28425142042279,
+    "content": "62",
+    "type": "Tipo 2",
+    "active": true,
+    "popup": {
+      "type": "iframe",
+      "src": "https://www.youtube.com/embed/4oMCwEjwbvI"
+    }
+  },
+  {
+    "id": "63",
+    "lat": -57.174763189730214,
+    "lon": -114.65098136174026,
+    "content": "63",
+    "type": "Tipo 2",
+    "active": true,
+    "popup": {
+      "type": "iframe",
+      "src": "https://www.youtube.com/embed/9I1uAbWxLmA"
+    }
+  },
+  {
+    "id": "64",
+    "lat": -61.796870761788824,
+    "lon": -135.05641988546571,
+    "content": "64",
+    "type": "Tipo 2",
+    "active": true,
+    "popup": {
+      "type": "iframe",
+      "src": "https://www.youtube.com/embed/8KrRc0sX_84"
+    }
+  },
+  {
+    "id": "65",
+    "lat": -61.45805114528355,
+    "lon": -156.92794682356643,
+    "content": "65",
+    "type": "Tipo 2",
+    "active": true,
+    "popup": {
+      "type": "iframe",
+      "src": "https://www.youtube.com/embed/XMWMhcI1dLg"
+    }
+  },
+  {
+    "id": "66",
+    "lat": -43.38943072383765,
+    "lon": -113.41653879341139,
+    "content": "66",
+    "type": "Tipo 2",
+    "active": true,
+    "popup": {
+      "type": "iframe",
+      "src": "https://www.youtube.com/embed/YOU0mMyqoVs"
+    }
+  },
+  {
+    "id": "67",
+    "lat": -49.99139890882577,
+    "lon": -118.76221302000214,
+    "content": "67",
+    "type": "Tipo 2",
+    "active": true,
+    "popup": {
+      "type": "iframe",
+      "src": "https://www.youtube.com/embed/EbOxmBOs2T4"
+    }
+  },
+  {
+    "id": "68",
+    "lat": -48.47174625600093,
+    "lon": -128.94389928195045,
+    "content": "68",
+    "type": "Tipo 2",
+    "active": true,
+    "popup": {
+      "type": "iframe",
+      "src": "https://www.youtube.com/embed/4oMCwEjwbvI"
+    }
+  },
+  {
+    "id": "69",
+    "lat": -45.14807208029637,
+    "lon": -135.66386998860634,
+    "content": "69",
+    "type": "Tipo 2",
+    "active": true,
+    "popup": {
+      "type": "iframe",
+      "src": "https://www.youtube.com/embed/9I1uAbWxLmA"
+    }
+  },
+  {
+    "id": "70",
+    "lat": -41.31254068237979,
+    "lon": -141.77099836275562,
+    "content": "70",
+    "type": "Tipo 2",
+    "active": true,
+    "popup": {
+      "type": "iframe",
+      "src": "https://www.youtube.com/embed/8KrRc0sX_84"
+    }
+  },
+  {
+    "id": "71",
+    "lat": -53.53787825061434,
+    "lon": -143.67563683486887,
+    "content": "71",
+    "type": "Tipo 2",
+    "active": true,
+    "popup": {
+      "type": "iframe",
+      "src": "https://www.youtube.com/embed/XMWMhcI1dLg"
+    }
+  },
+  {
+    "id": "72",
+    "lat": -35.485675674936914,
+    "lon": -100.32101242810455,
+    "content": "72",
+    "type": "Tipo 2",
+    "active": true,
+    "popup": {
+      "type": "iframe",
+      "src": "https://www.youtube.com/embed/YOU0mMyqoVs"
+    }
+  },
+  {
+    "id": "73",
+    "lat": -32.55971647080253,
+    "lon": -104.8230041900825,
+    "content": "73",
+    "type": "Tipo 2",
+    "active": true,
+    "popup": {
+      "type": "iframe",
+      "src": "https://www.youtube.com/embed/EbOxmBOs2T4"
+    }
+  },
+  {
+    "id": "74",
+    "lat": -33.69865970601067,
+    "lon": -112.05832715385795,
+    "content": "74",
+    "type": "Tipo 2",
+    "active": true,
+    "popup": {
+      "type": "iframe",
+      "src": "https://www.youtube.com/embed/4oMCwEjwbvI"
+    }
+  },
+  {
+    "id": "75",
+    "lat": -31.866557272401124,
+    "lon": -119.29553092875325,
+    "content": "75",
+    "type": "Tipo 2",
+    "active": true,
+    "popup": {
+      "type": "iframe",
+      "src": "https://www.youtube.com/embed/9I1uAbWxLmA"
+    }
+  },
+  {
+    "id": "76",
+    "lat": -30.24866218867615,
+    "lon": -114.12445298030366,
+    "content": "76",
+    "type": "Tipo 2",
+    "active": true,
+    "popup": {
+      "type": "iframe",
+      "src": "https://www.youtube.com/embed/8KrRc0sX_84"
+    }
+  },
+  {
+    "id": "77",
+    "lat": -29.10176336244176,
+    "lon": -106.95763158719103,
+    "content": "77",
+    "type": "Tipo 2",
+    "active": true,
+    "popup": {
+      "type": "iframe",
+      "src": "https://www.youtube.com/embed/XMWMhcI1dLg"
+    }
+  },
+  {
+    "id": "78",
+    "lat": -26.116291295412807,
+    "lon": -107.55639627075782,
+    "content": "78",
+    "type": "Tipo 2",
+    "active": true,
+    "popup": {
+      "type": "iframe",
+      "src": "https://www.youtube.com/embed/YOU0mMyqoVs"
+    }
+  },
+  {
+    "id": "79",
+    "lat": -26.99086556008473,
+    "lon": -112.29711852189666,
+    "content": "79",
+    "type": "Tipo 2",
+    "active": true,
+    "popup": {
+      "type": "iframe",
+      "src": "https://www.youtube.com/embed/EbOxmBOs2T4"
+    }
+  },
+  {
+    "id": "80",
+    "lat": -22.346478827263766,
+    "lon": -110.07918522928854,
+    "content": "80",
+    "type": "Tipo 2",
+    "active": true,
+    "popup": {
+      "type": "iframe",
+      "src": "https://www.youtube.com/embed/4oMCwEjwbvI"
+    }
+  },
+  {
+    "id": "81",
+    "lat": -22.79931665916041,
+    "lon": -114.17957307911857,
+    "content": "81",
+    "type": "Tipo 2",
+    "active": true,
+    "popup": {
+      "type": "iframe",
+      "src": "https://www.youtube.com/embed/9I1uAbWxLmA"
+    }
+  },
+  {
+    "id": "82",
+    "lat": -20.11461084270985,
+    "lon": -109.6890666456226,
+    "content": "82",
+    "type": "Tipo 2",
+    "active": true,
+    "popup": {
+      "type": "iframe",
+      "src": "https://www.youtube.com/embed/8KrRc0sX_84"
+    }
+  },
+  {
+    "id": "83",
+    "lat": -20.30798925410687,
+    "lon": -113.5995268116132,
+    "content": "83",
+    "type": "Tipo 2",
+    "active": true,
+    "popup": {
+      "type": "iframe",
+      "src": "https://www.youtube.com/embed/XMWMhcI1dLg"
+    }
+  },
+  {
+    "id": "84",
+    "lat": -20.56026695504076,
+    "lon": -118.03264981330234,
+    "content": "84",
+    "type": "Tipo 2",
+    "active": true,
+    "popup": {
+      "type": "iframe",
+      "src": "https://www.youtube.com/embed/YOU0mMyqoVs"
+    }
+  },
+  {
+    "id": "85",
+    "lat": -22.88119519058006,
+    "lon": -118.55045800579653,
+    "content": "85",
+    "type": "Tipo 2",
+    "active": true,
+    "popup": {
+      "type": "iframe",
+      "src": "https://www.youtube.com/embed/EbOxmBOs2T4"
+    }
+  },
+  {
+    "id": "86",
+    "lat": -22.44291449215325,
+    "lon": -123.03540445910889,
+    "content": "86",
+    "type": "Tipo 2",
+    "active": true,
+    "popup": {
+      "type": "iframe",
+      "src": "https://www.youtube.com/embed/4oMCwEjwbvI"
+    }
+  },
+  {
+    "id": "87",
+    "lat": -19.378735784701036,
+    "lon": -124.25632572629384,
+    "content": "87",
+    "type": "Tipo 2",
+    "active": true,
+    "popup": {
+      "type": "iframe",
+      "src": "https://www.youtube.com/embed/9I1uAbWxLmA"
+    }
+  },
+  {
+    "id": "88",
+    "lat": -18.560747689834244,
+    "lon": -127.139015785778,
+    "content": "88",
+    "type": "Tipo 2",
+    "active": true,
+    "popup": {
+      "type": "iframe",
+      "src": "https://www.youtube.com/embed/8KrRc0sX_84"
+    }
+  },
+  {
+    "id": "89",
+    "lat": -21.47862495017405,
+    "lon": -126.60629938738687,
+    "content": "89",
+    "type": "Tipo 2",
+    "active": true,
+    "popup": {
+      "type": "iframe",
+      "src": "https://www.youtube.com/embed/XMWMhcI1dLg"
+    }
+  },
+  {
+    "id": "90",
+    "lat": -18.189198831271298,
+    "lon": -129.97415395930796,
+    "content": "90",
+    "type": "Tipo 2",
+    "active": true,
+    "popup": {
+      "type": "iframe",
+      "src": "https://www.youtube.com/embed/YOU0mMyqoVs"
+    }
+  },
+  {
+    "id": "91",
+    "lat": -20.69175714420207,
+    "lon": -129.93114466358844,
+    "content": "91",
+    "type": "Tipo 2",
+    "active": true,
+    "popup": {
+      "type": "iframe",
+      "src": "https://www.youtube.com/embed/EbOxmBOs2T4"
+    }
+  },
+  {
+    "id": "92",
+    "lat": -20.69175714420207,
+    "lon": -129.93114466358844,
+    "content": "92",
+    "type": "Tipo 2",
+    "active": true,
+    "popup": {
+      "type": "iframe",
+      "src": "https://www.youtube.com/embed/4oMCwEjwbvI"
+    }
+  }
+]
