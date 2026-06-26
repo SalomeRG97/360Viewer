@@ -1,5 +1,5 @@
 // src/components/Hotspots.tsx
-import React from "react";
+import React, { useState } from "react";
 import Hotspot, { type HotspotData } from "./Hotspot";
 import * as THREE from "three";
 
@@ -20,6 +20,8 @@ const Hotspots: React.FC<HotspotsProps> = ({
   controlsRef,
   onPopupChange,
 }) => {
+  const [activePopupId, setActivePopupId] = useState<string | null>(null);
+
   return (
     <>
       {hotspots.map((hotspot) => (
@@ -31,6 +33,8 @@ const Hotspots: React.FC<HotspotsProps> = ({
           sphereRef={sphereRef}
           controlsRef={controlsRef}
           onPopupChange={onPopupChange}
+          activePopupId={activePopupId}
+          setActivePopupId={setActivePopupId}
         />
       ))}
     </>

@@ -24,6 +24,7 @@ const Visor360: React.FC<Props> = ({ DBHotspots }) => {
   const controlsRef = useRef<any>(null);
 
   const [hotspots, setHotspots] = useState<HotspotData[]>(DBHotspots);
+
   const setPopupOpen = () => {};
 
   // const [menu, setMenu] = useState<{
@@ -51,6 +52,7 @@ const Visor360: React.FC<Props> = ({ DBHotspots }) => {
 
   //   setHotspots((prev) => [...prev, newHotspot]);
   //   setMenu((m) => ({ ...m, visible: false }));
+  //   console.log(menu.lat, menu.lon);
   // };
 
   const updateHotspotPosition = (id: string, lat: number, lon: number) => {
@@ -66,7 +68,7 @@ const Visor360: React.FC<Props> = ({ DBHotspots }) => {
 
       const factor = e.deltaY * 0.002; // sensibilidad
       const newDist = controlsRef.current.object.position.length() + factor;
-      const clamped = Math.min(Math.max(newDist, 0.1), 8); // limitar
+      const clamped = Math.min(Math.max(newDist, 0.01), 5); // limitar
       controlsRef.current.object.position.setLength(clamped);
     };
 
@@ -89,10 +91,10 @@ const Visor360: React.FC<Props> = ({ DBHotspots }) => {
 
       <Canvas camera={{ position: [0, 0, 0.1] }}>
         <OrbitControls
-          // enableZoom={true} // 🔹 activamos zoom
-          zoomSpeed={0.5} // 🔹 velocidad del zoom (por defecto 1)
-          minDistance={0.1} // 🔹 distancia mínima desde la cámara al centro
-          maxDistance={8} // 🔹 distancia máxima
+          enableZoom={true}
+          zoomSpeed={0.5}
+          minDistance={0.1}
+          maxDistance={8}
           enablePan={false}
           rotateSpeed={-0.4}
           enableDamping

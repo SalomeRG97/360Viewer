@@ -14,6 +14,7 @@
 import { useEffect, useState } from "react";
 import Visor360 from "./components/Visor360";
 import "./App.css";
+import "@fortawesome/fontawesome-free/css/all.min.css";
 
 const API_URL = "https://ex-view.com/360Viewer/api/project.php";
 

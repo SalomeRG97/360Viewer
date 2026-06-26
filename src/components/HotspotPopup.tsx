@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useRef } from "react";
 import { Html } from "@react-three/drei";
 
 export type PopupData = {
@@ -20,11 +20,33 @@ const HotspotPopup: React.FC<HotspotPopupProps> = ({
   content,
   position,
 }) => {
+  const popupRef = useRef<HTMLDivElement>(null);
+
+  // Listener para cerrar al hacer click fuera
+  useEffect(() => {
+    if (!visible) return;
+
+    const handleClickOutside = (event: MouseEvent) => {
+      if (
+        popupRef.current &&
+        !popupRef.current.contains(event.target as Node)
+      ) {
+        onClose();
+      }
+    };
+
+    document.addEventListener("mousedown", handleClickOutside);
+    return () => {
+      document.removeEventListener("mousedown", handleClickOutside);
+    };
+  }, [visible, onClose]);
+
   if (!visible) return null;
 
   return (
     <Html position={position} center>
       <div
+        ref={popupRef}
         style={{
           position: "relative",
           background: "rgba(0,0,0,0.85)",
@@ -40,7 +62,7 @@ const HotspotPopup: React.FC<HotspotPopupProps> = ({
           textAlign: "center",
         }}
       >
-        {/* Botón cerrar usando Bootstrap Icon */}
+        {/* Botón cerrar */}
         <i
           className="bi bi-x-circle"
           onClick={onClose}
@@ -62,13 +84,13 @@ const HotspotPopup: React.FC<HotspotPopupProps> = ({
         ></i>
 
         {/* Contenido */}
-        {(content.type as string) === "image" && content.src && (
+        {content.type === "image" && content.src && (
           <img
             src={content.src}
             style={{ maxWidth: "100%", maxHeight: "100%", borderRadius: "4px" }}
           />
         )}
-        {(content.type as string) === "iframe" && content.src && (
+        {content.type === "iframe" && content.src && (
           <div style={{ position: "relative", width: "100%", height: "100%" }}>
             <iframe
               src={content.src}
@@ -87,9 +109,7 @@ const HotspotPopup: React.FC<HotspotPopupProps> = ({
             />
           </div>
         )}
-        {(content.type as string) === "text" && content.text && (
-          <p>{content.text}</p>
-        )}
+        {content.type === "text" && content.text && <p>{content.text}</p>}
       </div>
     </Html>
   );

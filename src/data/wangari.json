@@ -93,6 +93,7 @@
     "lon": -112.98664880451531,
     "content": "ZONA DEPORTIVA",
     "type": "Tipo 3",
+    "icon": "fa-regular fa-futbol",
     "popup": {
       "type": "text",
       "text": "Este es un hotspot con contenido de texto"
@@ -104,6 +105,7 @@
     "lon": -124.00245556787787,
     "content": "ZONA DE CAMPING",
     "type": "Tipo 3",
+    "icon": "fa-solid fa-campground",
     "popup": {
       "type": "text",
       "text": "Este es un hotspot con contenido de texto"
@@ -115,6 +117,7 @@
     "lon": -135.6599232181269,
     "content": "RESERVA NATURAL",
     "type": "Tipo 3",
+    "icon": "fa-solid fa-tree",
     "popup": {
       "type": "text",
       "text": "Este es un hotspot con contenido de texto"
@@ -126,6 +129,7 @@
     "lon": -147.73006751701618,
     "content": "SENDEROS",
     "type": "Tipo 3",
+    "icon": "fa-solid fa-person-hiking",
     "popup": {
       "type": "text",
       "text": "Este es un hotspot con contenido de texto"
@@ -137,6 +141,7 @@
     "lon": 15.620577128936121,
     "content": "PORTERÍA",
     "type": "Tipo 3",
+    "icon": "fa-regular fa-house",
     "popup": {
       "type": "text",
       "text": "Este es un hotspot con contenido de texto"
@@ -144,10 +149,11 @@
   },
   {
     "id": "A-muelle1",
-    "lat": -37.7007709692237,
-    "lon": -16.541154227149445,
+    "lat": -37.44677514118165,
+    "lon": -15.567911659053005,
     "content": "MUELLE",
     "type": "Tipo 3",
+    "icon": "fa-solid fa-water",
     "popup": {
       "type": "text",
       "text": "Este es un hotspot con contenido de texto"
@@ -155,10 +161,11 @@
   },
   {
     "id": "A-muelle2",
-    "lat": -40.831892060476775,
-    "lon": -14.861808106835058,
+    "lat": -40.16238383591855,
+    "lon": -12.67962376908913,
     "content": "MUELLE",
     "type": "Tipo 3",
+    "icon": "fa-solid fa-water",
     "popup": {
       "type": "text",
       "src": "Este es un hotspot con contenido de texto"
@@ -170,6 +177,7 @@
     "lon": 6.421604489113677,
     "content": "RUTA DEL SOL - SECTOR 2",
     "type": "Tipo 3",
+    "icon": "fa-solid fa-water",
     "popup": {
       "type": "text",
       "text": "Este es un hotspot con contenido de texto"
@@ -177,10 +185,11 @@
   },
   {
     "id": "A-juegos",
-    "lat": -46.86825999241415,
-    "lon": 6.421604489113677,
+    "lat": -52.15104206988224,
+    "lon": 1.5372880561851403,
     "content": "RUTA DEL SOL - SECTOR 2",
     "type": "Tipo 3",
+    "icon": "fa-solid fa-cubes-stacked",
     "popup": {
       "type": "text",
       "text": "Este es un hotspot con contenido de texto"
@@ -192,6 +201,7 @@
     "lon": -0.3113538783200308,
     "content": "RUTA DEL SOL - SECTOR 2",
     "type": "Tipo 3",
+    "icon": "fa-solid fa-spa",
     "popup": {
       "type": "text",
       "text": "Este es un hotspot con contenido de texto"
@@ -199,10 +209,11 @@
   },
   {
     "id": "A-kiosko",
-    "lat": -45.047639664628974,
-    "lon": -8.330142651494231,
+    "lat": -46.526529856096346,
+    "lon": -2.68268750418347,
     "content": "RUTA DEL SOL - SECTOR 2",
     "type": "Tipo 3",
+    "icon": "fa-solid fa-vihara",
     "popup": {
       "type": "text",
       "text": "Este es un hotspot con contenido de texto"
@@ -210,10 +221,11 @@
   },
   {
     "id": "A-salon",
-    "lat": -43.75094285882864,
-    "lon": -13.973398008635233,
+    "lat": -43.77196321169038,
+    "lon": -8.683349850018526,
     "content": "RUTA DEL SOL - SECTOR 2",
     "type": "Tipo 3",
+    "icon": "fa-solid fa-people-roof",
     "popup": {
       "type": "text",
       "text": "Este es un hotspot con contenido de texto"
